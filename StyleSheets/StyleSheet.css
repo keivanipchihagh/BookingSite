@@ -1,0 +1,125 @@
+﻿* {
+    box-sizing: border-box;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(99, 115, 138);
+    background-image: url(../Img/wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.panel {
+    width: 100%;
+    background-color: rgb(242, 243, 247);
+    border-radius: 5px;
+    box-shadow: black 0px 0px 50px 5px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 5%;
+    margin: 0px 0px 4% 0px;
+}
+
+.textBox {
+    color: black;
+    width: 75%;
+    height: 5vh;
+    padding: 12px 15px;
+    margin: 1%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline-color: #5cb85c;
+    font-size: 0.9vw;
+}
+
+.dropDownList {
+    color: dimgray;
+    width: 22%;
+    height: 5vh;
+    padding: 12px 15px;
+    margin: 1%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline-color: #5cb85c;
+    font-size: 0.9vw;
+}
+
+.option {
+    color: dimgray;
+    font-size: 0.9vw;
+    outline-color: #5cb85c;
+}
+
+.button {
+    width: 72%;
+    text-align: center;
+    padding: 3%;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(top,#5cb85c 0,#419641 100%);
+    border-radius: 5px;
+    margin: 3%;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none !important;
+    border: 1px solid #5cb85c;
+    color: white;
+    margin-bottom: 0px
+}
+
+#resend {
+    width: 20%;
+    padding: 2.2%;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(top,#5cb85c 0,#419641 100%);
+    border-radius: 5px;
+    margin: 3%;
+    font-size: 0.9vw;
+    font-weight: bold;
+    outline: none !important;
+    border: 1px solid #5cb85c;
+    color: white;
+}
+
+.button:hover {
+    background-image: -webkit-linear-gradient(bottom,#5cb85c 0,#419641 100%);
+}
+
+.link {
+    color: #5cb85c;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    color: black !important;
+}
+
+td, th {
+    padding: 10px 20px 10px 20px !important;
+    text-align: center !important;
+}
+
+table#header tr:nth-child(even) {
+    background-color: #eee !important;
+}
+
+table#header tr:nth-child(even) {
+    background-color: #eee !important;
+}
+
+table#header tr:first-child {
+    background-color: darkgray !important;
+}
